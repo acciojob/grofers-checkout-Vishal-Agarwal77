@@ -13,6 +13,7 @@ const getSum = () => {
 	let row=document.createElement("tr");
 	let col1=document.createElement("td");
 	let col2=document.createElement("td");
+	col2.id="ans";
 	col2.innerText=`${ans}`;
 	row.appendChild(col1);
 	row.appendChild(col2);
